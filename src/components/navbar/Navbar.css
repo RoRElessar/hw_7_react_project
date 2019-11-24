@@ -1,0 +1,39 @@
+.navigation {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.menu-item a {
+  font-size: 18px;
+  color: #282C34;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  color: #09D3AC;
+}
